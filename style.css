@@ -1,0 +1,115 @@
+  /* Estilo del body en modo claro */
+
+  body  {
+    margin: auto;
+    margin-top: 150px;
+    width: 300px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+    /* transition: background-color 0.3s, color 0.3s; */
+}
+
+  /* Estilo boton en modo claro */
+
+  #BotonModo {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(30, 30, 35);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+/* Estilo del body en modo oscuro */
+
+  .dark-mode {
+    background-color: rgb(30, 30, 35);
+    color: white;
+  }
+
+
+/* Estilo del boton en modo oscuro */
+
+  .dark-mode #BotonModo {
+    background-color: #5729ac;
+    color: black;
+  }
+
+  .btn1{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(30, 30, 35);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .dark-mode .btn1{
+    background-color: #5729ac;
+    color: white;
+  }
+
+
+  #info{
+    height: 100px ;
+    background-color: red;
+    color: white;
+    margin-top: 20px;
+    padding-top: 50px;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
+    font-weight: bold;
+  }
+
+  #info:hover{
+    height: 100px ;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding-top: 50px;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .dark-mode #info{
+    background-color: blue;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dark-mode #info:hover{
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+
+#input{
+    background-color: white;
+    color: black;
+    height: 30px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.dark-mode #input{
+    color:white;
+    background-color: black;
+}
+
+#contenedor_input{
+    display: flex;
+}
+
+#enviar_btn{
+ 
+    margin-top: 20px;
+    margin-left: 10px;
+}
